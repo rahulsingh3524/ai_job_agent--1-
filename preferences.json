@@ -1,0 +1,19 @@
+{
+  "roles": [
+    " .NET Developer "
+  ],
+  "locations": [
+    "India"
+  ],
+  "followup_days": 5,
+  "desired_count": 100,
+  "easy_apply_only": true,
+  "companies": [
+    "Google",
+    "Microsoft",
+    "TCS",
+    "Infosys",
+    "Wipro"
+  ],
+  "description": "I am writing to express my interest in contributing to your team in a .NET Developer position. With around one year of hands-on experience through internships and real-world projects, I bring expertise in [ ASP.NET Core , C# , MVC , Web API , Entity Framework , SQL Server for backend , HTML , CSS , JavaScript , jQuery , Bootstrap ] and technologies such as RESTful APIs, Agile methodologies, and cross-functional collaboration. I am particularly excited about the opportunity to contribute to your team and would welcome the chance to discuss potential opportunities with you."
+}

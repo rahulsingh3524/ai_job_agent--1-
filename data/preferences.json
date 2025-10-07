@@ -1,0 +1,15 @@
+{
+    "roles": [
+        "Software Engineer",
+        ".net developer"
+    ],
+    "location": "India",
+    "description": "I am a passionate backend developer skilled in Python, databases, and cloud infrastructure.",
+    "days_filter": 1,
+    "locations": [
+        "India"
+    ],
+    "followup_days": 2,
+    "desired_count": 150,
+    "easy_apply_only": true
+}
