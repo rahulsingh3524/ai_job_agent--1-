@@ -570,23 +570,7 @@ with col1:
 #             optimize_resume(prefs)
 #             st.success("✅ Resume optimized!")
 
-with col3:
-    if st.button("🤖 Auto-Apply to Jobs"):
-        with st.spinner("Applying to jobs..."):
-            csv_path = "data/latest_jobs.csv"
-            if os.path.exists(csv_path) and os.path.getsize(csv_path) > 0:
-                try:
-                    jobs_df = pd.read_csv(csv_path)
-                    if not jobs_df.empty:
-                        jobs = jobs_df.to_dict(orient="records")
-                        apply_to_jobs(jobs, prefs)
-                        st.success("✅ Auto-apply completed. Check terminal/logs.")
-                    else:
-                        st.warning("⚠️ CSV is empty. Please crawl jobs first.")
-                except Exception as e:
-                    st.error(f"❌ Error reading job file: {e}")
-            else:
-                st.warning("⚠️ Job data missing. Crawl jobs first.")
+
 
 # Job Listings
 st.markdown("---")
@@ -617,11 +601,7 @@ with col4:
             send_cold_emails(prefs)
             st.success("✅ Cold emails sent!")
 
-with col5:
-    if st.button("🔁 Send Follow-ups"):
-        with st.spinner("Sending follow-ups..."):
-            send_followups()
-            st.success("✅ Follow-up emails sent!")
+
 
 # Email Tracker
 st.markdown("---")
